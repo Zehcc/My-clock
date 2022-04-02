@@ -1,0 +1,13 @@
+@import './base/_mixins.scss';
+@import './base/_variables.scss';
+@import '../components/Chrono/_chrono';
+@import '../components/Clock/_clock';
+@import '../components/CountDown/_countdown';
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
