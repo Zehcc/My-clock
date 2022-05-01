@@ -1,10 +1,15 @@
-@import './base/_mixins.scss';
-@import './base/_variables.scss';
-@import '../components/Chrono/_chrono';
-@import '../components/Clock/_clock';
-@import '../components/CountDown/_countdown';
+@import "./base/_mixins.scss";
+@import "./base/_variables.scss";
+@import "../components/Chrono/_chrono";
+@import "../components/Clock/_clock";
+@import "../components/CountDown/_countdown";
 
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   text-align: center;
 }
 
